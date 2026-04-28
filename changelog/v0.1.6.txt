@@ -1,1 +1,0 @@
-fix(pins): lower tack into paper + cast shadow for protrusion feel
