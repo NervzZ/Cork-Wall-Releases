@@ -1,0 +1,1 @@
+feat(profile): InitialsAvatar widget — initials on a deterministic color

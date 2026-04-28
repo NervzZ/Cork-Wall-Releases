@@ -24,6 +24,18 @@ p{line-height:1.5;color:#555}
 .release .dl:hover{background:#8f2014}
 .release .changes{margin:12px 0 0;padding-left:22px;font-size:13px;color:#444;line-height:1.6}
 .release .changes .empty{color:#999;font-style:italic;list-style:none;margin-left:-22px}
+.full{margin-top:28px;background:#fff5db;border-radius:8px;padding:12px 18px;box-shadow:0 2px 8px rgba(40,20,0,0.08);border:1px solid #e6d4a3}
+.full[open]{padding-bottom:14px}
+.full summary{cursor:pointer;display:flex;align-items:center;gap:14px;font-size:14px;list-style:none}
+.full summary::-webkit-details-marker{display:none}
+.full summary::before{content:"▸";color:#b07a3f;font-size:12px;transition:transform 120ms}
+.full[open] summary::before{transform:rotate(90deg)}
+.full .ver{font-weight:700;color:#502d0f}
+.full .sub{color:#888;font-style:italic}
+.full-body h3{font-size:14px;margin:14px 0 4px;color:#502d0f;font-weight:700}
+.full-body h3 .h3-date{color:#888;font-weight:500;margin-left:8px}
+.full-body ul{margin:0 0 4px;padding-left:22px;font-size:13px;color:#444;line-height:1.6}
+.full-body .empty{color:#999;font-style:italic}
 a{color:#b81e10;text-decoration:none}
 a:hover{text-decoration:underline}
 </style>
@@ -33,64 +45,99 @@ a:hover{text-decoration:underline}
 <p>Android builds. Tap an APK on your phone to install. First time only: Android will ask "Allow this source to install apps" &mdash; tap Allow.</p>
 <a class="latest-link" href="corkwall-latest.apk">Download latest</a>
 <div class="releases">
+<details class="full">
+<summary><span class="ver">Full changelog</span><span class="sub">all releases, dated</span></summary>
+<div class="full-body">
+<h3>v0.1.15<span class="h3-date">2026-04-28</span></h3>
+<ul>
+</ul>
+<h3>v0.1.14<span class="h3-date">2026-04-27</span></h3>
+<ul>
+<li>Revert "fix(android): drop adaptive launcher icon, use legacy mipmap only"</li>
+<li>fix(android): drop adaptive launcher icon, use legacy mipmap only</li>
+</ul>
+<h3>v0.1.13<span class="h3-date">2026-04-27</span></h3>
+<ul>
+<li>fix(profile): show real version + flag dev builds in the footer</li>
+</ul>
+<h3>v0.1.12<span class="h3-date">2026-04-27</span></h3>
+<ul>
+</ul>
+<h3>v0.1.11<span class="h3-date">2026-04-27</span></h3>
+<ul>
+<li>refactor(pins): single back arrow that returns to the previous view</li>
+</ul>
+<h3>v0.1.10<span class="h3-date">2026-04-27</span></h3>
+<ul>
+</ul>
+<h3>v0.1.9<span class="h3-date">2026-04-27</span></h3>
+<ul>
+</ul>
+<h3>v0.1.8<span class="h3-date">2026-04-27</span></h3>
+<ul>
+<li>feat(pins): replace round badge with playful hand-drawn check on paper</li>
+</ul>
+<h3>v0.1.7<span class="h3-date">2026-04-27</span></h3>
+<ul>
+</ul>
+<h3>v0.1.6<span class="h3-date">2026-04-27</span></h3>
+<ul>
+</ul>
+</div>
+</details>
 <details class="release" open>
+<summary><span class="ver">v0.1.15</span><span class="date">2026-04-28</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.15.apk">Download</a></summary>
+<ul class="changes">
+</ul>
+</details>
+<details class="release" >
 <summary><span class="ver">v0.1.14</span><span class="date">2026-04-27</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.14.apk">Download</a></summary>
 <ul class="changes">
-<li>Initial tracked release — no prior commit to diff against.</li>
+<li>Revert "fix(android): drop adaptive launcher icon, use legacy mipmap only"</li>
+<li>fix(android): drop adaptive launcher icon, use legacy mipmap only</li>
 </ul>
 </details>
 <details class="release" >
 <summary><span class="ver">v0.1.13</span><span class="date">2026-04-27</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.13.apk">Download</a></summary>
 <ul class="changes">
-<li>Initial tracked release — no prior commit to diff against.</li>
+<li>fix(profile): show real version + flag dev builds in the footer</li>
 </ul>
 </details>
 <details class="release" >
 <summary><span class="ver">v0.1.12</span><span class="date">2026-04-27</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.12.apk">Download</a></summary>
 <ul class="changes">
-<li>Initial tracked release — no prior commit to diff against.</li>
 </ul>
 </details>
 <details class="release" >
 <summary><span class="ver">v0.1.11</span><span class="date">2026-04-27</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.11.apk">Download</a></summary>
 <ul class="changes">
-<li class="empty">No changelog recorded for this build.</li>
+<li>refactor(pins): single back arrow that returns to the previous view</li>
 </ul>
 </details>
 <details class="release" >
 <summary><span class="ver">v0.1.10</span><span class="date">2026-04-27</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.10.apk">Download</a></summary>
 <ul class="changes">
-<li class="empty">No changelog recorded for this build.</li>
 </ul>
 </details>
 <details class="release" >
 <summary><span class="ver">v0.1.9</span><span class="date">2026-04-27</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.9.apk">Download</a></summary>
 <ul class="changes">
-<li class="empty">No changelog recorded for this build.</li>
 </ul>
 </details>
 <details class="release" >
 <summary><span class="ver">v0.1.8</span><span class="date">2026-04-27</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.8.apk">Download</a></summary>
 <ul class="changes">
-<li class="empty">No changelog recorded for this build.</li>
+<li>feat(pins): replace round badge with playful hand-drawn check on paper</li>
 </ul>
 </details>
 <details class="release" >
 <summary><span class="ver">v0.1.7</span><span class="date">2026-04-27</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.7.apk">Download</a></summary>
 <ul class="changes">
-<li class="empty">No changelog recorded for this build.</li>
 </ul>
 </details>
 <details class="release" >
 <summary><span class="ver">v0.1.6</span><span class="date">2026-04-27</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.6.apk">Download</a></summary>
 <ul class="changes">
-<li class="empty">No changelog recorded for this build.</li>
-</ul>
-</details>
-<details class="release" >
-<summary><span class="ver">v0.1.5</span><span class="date">2026-04-26</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.5.apk">Download</a></summary>
-<ul class="changes">
-<li class="empty">No changelog recorded for this build.</li>
 </ul>
 </details>
 </div>
