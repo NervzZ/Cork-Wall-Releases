@@ -1,2 +1,0 @@
-feat(pins): replace round badge with playful hand-drawn check on paper
-feat(pins): green check stamp on signed-up notes in wall view

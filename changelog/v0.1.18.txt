@@ -1,0 +1,1 @@
+feat(pins): "Seen by N" feature on pin detail (closes #7)
