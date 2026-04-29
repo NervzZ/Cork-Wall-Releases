@@ -1,1 +1,0 @@
-feat(ci): per-version changelog on the public Pages mirror
