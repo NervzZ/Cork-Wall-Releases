@@ -1,0 +1,1 @@
+fix(walls): allow pinching out 30% beyond the auto-fit reset zoom
