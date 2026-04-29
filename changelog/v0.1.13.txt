@@ -1,0 +1,2 @@
+fix(profile): show real version + flag dev builds in the footer
+feat(profile): show app version at the bottom of the profile screen

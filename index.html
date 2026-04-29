@@ -10,20 +10,6 @@ h1{font-size:28px;margin-bottom:4px}
 p{line-height:1.5;color:#555}
 .latest-link{display:inline-block;background:#b81e10;color:white;padding:10px 18px;border-radius:6px;font-weight:700;margin-top:8px;text-decoration:none}
 .latest-link:hover{background:#8f2014}
-.releases{margin-top:28px}
-.release{margin-top:12px;background:white;border-radius:8px;padding:12px 18px;box-shadow:0 2px 8px rgba(40,20,0,0.08)}
-.release[open]{padding-bottom:14px}
-.release summary{cursor:pointer;display:flex;align-items:center;gap:14px;font-size:14px;list-style:none}
-.release summary::-webkit-details-marker{display:none}
-.release summary::before{content:"▸";color:#b07a3f;font-size:12px;transition:transform 120ms}
-.release[open] summary::before{transform:rotate(90deg)}
-.release .ver{font-weight:700;color:#502d0f}
-.release .date{color:#888}
-.release .size{color:#aaa;margin-left:auto}
-.release .dl{background:#b81e10;color:white;padding:4px 12px;border-radius:4px;font-size:13px;text-decoration:none;font-weight:600}
-.release .dl:hover{background:#8f2014}
-.release .changes{margin:12px 0 0;padding-left:22px;font-size:13px;color:#444;line-height:1.6}
-.release .changes .empty{color:#999;font-style:italic;list-style:none;margin-left:-22px}
 .full{margin-top:28px;background:#fff5db;border-radius:8px;padding:12px 18px;box-shadow:0 2px 8px rgba(40,20,0,0.08);border:1px solid #e6d4a3}
 .full[open]{padding-bottom:14px}
 .full summary{cursor:pointer;display:flex;align-items:center;gap:14px;font-size:14px;list-style:none}
@@ -42,146 +28,99 @@ a:hover{text-decoration:underline}
 </head>
 <body>
 <h1>Cork Wall</h1>
-<p>Android builds. Tap an APK on your phone to install. First time only: Android will ask "Allow this source to install apps" &mdash; tap Allow.</p>
-<a class="latest-link" href="corkwall-latest.apk">Download latest</a>
-<div class="releases">
-<details class="full">
+<p>Android build. Tap the APK on your phone to install. First time only: Android will ask "Allow this source to install apps" &mdash; tap Allow.</p>
+<a class="latest-link" href="corkwall-v0.1.25.apk">Download latest (v0.1.25)</a>
+<details class="full" open>
 <summary><span class="ver">Full changelog</span><span class="sub">all releases, dated</span></summary>
 <div class="full-body">
+<h3>v0.1.25<span class="h3-date">2026-04-29</span></h3>
+<ul>
+<li>fix(ci): trim mirror to last 2 APKs + stable "download latest" link</li>
+</ul>
 <h3>v0.1.24<span class="h3-date">2026-04-29</span></h3>
 <ul>
 <li>fix(ci): auto-bump min-version floor in Firestore on every release</li>
 </ul>
 <h3>v0.1.23<span class="h3-date">2026-04-29</span></h3>
 <ul>
-<li>fix(walls): bump per-pin area budget 350²→420² for more breathing room</li>
-<li>fix(walls): make off-limits overlay match the area cap exactly</li>
-<li>fix(walls): cap wall layout area to a function of pin count (closes #52)</li>
+<li class="empty">No changelog recorded.</li>
 </ul>
 <h3>v0.1.22<span class="h3-date">2026-04-29</span></h3>
 <ul>
-<li>feat(pins): capacity counter on note corner (closes #42)</li>
-<li>fix(pins): make unseen marker dot highlight actually visible</li>
-<li>fix(pins): tone down unseen marker dot, tilt right, highlight both pieces</li>
-<li>fix(pins): straighten + overflow the unseen marker</li>
-<li>fix(pins): place unseen marker on right corner of note</li>
-<li>feat(pins): unseen marker on pin corner (closes #43)</li>
-<li>feat(version-gate): block outdated APKs at startup (closes #46)</li>
+<li class="empty">No changelog recorded.</li>
 </ul>
 <h3>v0.1.21<span class="h3-date">2026-04-29</span></h3>
 <ul>
-<li>No new commits since the previous release.</li>
+<li class="empty">No changelog recorded.</li>
 </ul>
 <h3>v0.1.20<span class="h3-date">2026-04-29</span></h3>
 <ul>
-<li>fix(pins): make unseen marker dot highlight actually visible</li>
-<li>fix(pins): tone down unseen marker dot, tilt right, highlight both pieces</li>
-<li>fix(pins): straighten + overflow the unseen marker</li>
-<li>fix(pins): place unseen marker on right corner of note</li>
-<li>feat(pins): unseen marker on pin corner (closes #43)</li>
-<li>feat(version-gate): block outdated APKs at startup (closes #46)</li>
-<li>fix(ci): preserve last changelog line in mirror index (closes #48)</li>
+<li class="empty">No changelog recorded.</li>
 </ul>
 <h3>v0.1.18<span class="h3-date">2026-04-28</span></h3>
 <ul>
-<li>feat(pins): "Seen by N" feature on pin detail (closes #7)</li>
+<li class="empty">No changelog recorded.</li>
 </ul>
 <h3>v0.1.17<span class="h3-date">2026-04-28</span></h3>
 <ul>
-<li>fix(nav): system back gesture returns to previous screen (closes #8)</li>
+<li class="empty">No changelog recorded.</li>
 </ul>
 <h3>v0.1.16<span class="h3-date">2026-04-28</span></h3>
 <ul>
-<li>feat(theme): switch display + handwritten fonts to Patrick Hand (closes #24)</li>
+<li class="empty">No changelog recorded.</li>
 </ul>
 <h3>v0.1.15<span class="h3-date">2026-04-28</span></h3>
 <ul>
-<li>fix(ci): regenerate changelogs from gh-pages history (closes #33)</li>
+<li class="empty">No changelog recorded.</li>
 </ul>
 <h3>v0.1.14<span class="h3-date">2026-04-27</span></h3>
 <ul>
-<li>Revert "fix(android): drop adaptive launcher icon, use legacy mipmap only"</li>
-<li>fix(android): drop adaptive launcher icon, use legacy mipmap only</li>
-<li>feat(android): swap launcher icon to the new Cork Wall logo</li>
+<li class="empty">No changelog recorded.</li>
+</ul>
+<h3>v0.1.13<span class="h3-date">2026-04-27</span></h3>
+<ul>
+<li>fix(profile): show real version + flag dev builds in the footer</li>
+<li>feat(profile): show app version at the bottom of the profile screen</li>
+</ul>
+<h3>v0.1.12<span class="h3-date">2026-04-27</span></h3>
+<ul>
+<li>feat(ci): per-version changelog on the public Pages mirror</li>
+</ul>
+<h3>v0.1.11<span class="h3-date">2026-04-27</span></h3>
+<ul>
+<li>refactor(pins): single back arrow that returns to the previous view</li>
+<li>feat(calendar): add 'Calendar' back affordance on pin detail</li>
+</ul>
+<h3>v0.1.10<span class="h3-date">2026-04-27</span></h3>
+<ul>
+<li>fix(walls): allow pinching out 30% beyond the auto-fit reset zoom</li>
+</ul>
+<h3>v0.1.9<span class="h3-date">2026-04-27</span></h3>
+<ul>
+<li>feat(profile): InitialsAvatar widget — initials on a deterministic color</li>
+</ul>
+<h3>v0.1.8<span class="h3-date">2026-04-27</span></h3>
+<ul>
+<li>feat(pins): replace round badge with playful hand-drawn check on paper</li>
+<li>feat(pins): green check stamp on signed-up notes in wall view</li>
+</ul>
+<h3>v0.1.7<span class="h3-date">2026-04-27</span></h3>
+<ul>
+<li>polish(pins): shift tack shadow more bottom-right + show paper sliver above</li>
+</ul>
+<h3>v0.1.6<span class="h3-date">2026-04-27</span></h3>
+<ul>
+<li>fix(pins): lower tack into paper + cast shadow for protrusion feel</li>
+</ul>
+<h3>v0.1.5<span class="h3-date">2026-04-26</span></h3>
+<ul>
+<li>feat: drop iOS doc references + switch release to public Pages mirror</li>
+</ul>
+<h3>v0.1.4<span class="h3-date">2026-04-26</span></h3>
+<ul>
+<li>Initial tracked release — no prior commit to diff against.</li>
 </ul>
 </div>
 </details>
-<details class="release" open>
-<summary><span class="ver">v0.1.24</span><span class="date">2026-04-29</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.24.apk">Download</a></summary>
-<ul class="changes">
-<li>fix(ci): auto-bump min-version floor in Firestore on every release</li>
-</ul>
-</details>
-<details class="release" >
-<summary><span class="ver">v0.1.23</span><span class="date">2026-04-29</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.23.apk">Download</a></summary>
-<ul class="changes">
-<li>fix(walls): bump per-pin area budget 350²→420² for more breathing room</li>
-<li>fix(walls): make off-limits overlay match the area cap exactly</li>
-<li>fix(walls): cap wall layout area to a function of pin count (closes #52)</li>
-</ul>
-</details>
-<details class="release" >
-<summary><span class="ver">v0.1.22</span><span class="date">2026-04-29</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.22.apk">Download</a></summary>
-<ul class="changes">
-<li>feat(pins): capacity counter on note corner (closes #42)</li>
-<li>fix(pins): make unseen marker dot highlight actually visible</li>
-<li>fix(pins): tone down unseen marker dot, tilt right, highlight both pieces</li>
-<li>fix(pins): straighten + overflow the unseen marker</li>
-<li>fix(pins): place unseen marker on right corner of note</li>
-<li>feat(pins): unseen marker on pin corner (closes #43)</li>
-<li>feat(version-gate): block outdated APKs at startup (closes #46)</li>
-</ul>
-</details>
-<details class="release" >
-<summary><span class="ver">v0.1.21</span><span class="date">2026-04-29</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.21.apk">Download</a></summary>
-<ul class="changes">
-<li>No new commits since the previous release.</li>
-</ul>
-</details>
-<details class="release" >
-<summary><span class="ver">v0.1.20</span><span class="date">2026-04-29</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.20.apk">Download</a></summary>
-<ul class="changes">
-<li>fix(pins): make unseen marker dot highlight actually visible</li>
-<li>fix(pins): tone down unseen marker dot, tilt right, highlight both pieces</li>
-<li>fix(pins): straighten + overflow the unseen marker</li>
-<li>fix(pins): place unseen marker on right corner of note</li>
-<li>feat(pins): unseen marker on pin corner (closes #43)</li>
-<li>feat(version-gate): block outdated APKs at startup (closes #46)</li>
-<li>fix(ci): preserve last changelog line in mirror index (closes #48)</li>
-</ul>
-</details>
-<details class="release" >
-<summary><span class="ver">v0.1.18</span><span class="date">2026-04-28</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.18.apk">Download</a></summary>
-<ul class="changes">
-<li>feat(pins): "Seen by N" feature on pin detail (closes #7)</li>
-</ul>
-</details>
-<details class="release" >
-<summary><span class="ver">v0.1.17</span><span class="date">2026-04-28</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.17.apk">Download</a></summary>
-<ul class="changes">
-<li>fix(nav): system back gesture returns to previous screen (closes #8)</li>
-</ul>
-</details>
-<details class="release" >
-<summary><span class="ver">v0.1.16</span><span class="date">2026-04-28</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.16.apk">Download</a></summary>
-<ul class="changes">
-<li>feat(theme): switch display + handwritten fonts to Patrick Hand (closes #24)</li>
-</ul>
-</details>
-<details class="release" >
-<summary><span class="ver">v0.1.15</span><span class="date">2026-04-28</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.15.apk">Download</a></summary>
-<ul class="changes">
-<li>fix(ci): regenerate changelogs from gh-pages history (closes #33)</li>
-</ul>
-</details>
-<details class="release" >
-<summary><span class="ver">v0.1.14</span><span class="date">2026-04-27</span><span class="size">70M</span><a class="dl" href="corkwall-v0.1.14.apk">Download</a></summary>
-<ul class="changes">
-<li>Revert "fix(android): drop adaptive launcher icon, use legacy mipmap only"</li>
-<li>fix(android): drop adaptive launcher icon, use legacy mipmap only</li>
-<li>feat(android): swap launcher icon to the new Cork Wall logo</li>
-</ul>
-</details>
-</div>
 </body>
 </html>

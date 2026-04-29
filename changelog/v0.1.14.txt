@@ -1,3 +1,0 @@
-Revert "fix(android): drop adaptive launcher icon, use legacy mipmap only"
-fix(android): drop adaptive launcher icon, use legacy mipmap only
-feat(android): swap launcher icon to the new Cork Wall logo

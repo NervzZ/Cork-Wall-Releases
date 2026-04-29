@@ -1,1 +1,0 @@
-fix(nav): system back gesture returns to previous screen (closes #8)

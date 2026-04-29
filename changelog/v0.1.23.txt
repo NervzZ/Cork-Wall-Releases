@@ -1,3 +1,0 @@
-fix(walls): bump per-pin area budget 350²→420² for more breathing room
-fix(walls): make off-limits overlay match the area cap exactly
-fix(walls): cap wall layout area to a function of pin count (closes #52)

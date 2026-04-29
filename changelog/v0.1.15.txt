@@ -1,1 +1,0 @@
-fix(ci): regenerate changelogs from gh-pages history (closes #33)

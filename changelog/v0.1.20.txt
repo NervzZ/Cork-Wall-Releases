@@ -1,7 +1,0 @@
-fix(pins): make unseen marker dot highlight actually visible
-fix(pins): tone down unseen marker dot, tilt right, highlight both pieces
-fix(pins): straighten + overflow the unseen marker
-fix(pins): place unseen marker on right corner of note
-feat(pins): unseen marker on pin corner (closes #43)
-feat(version-gate): block outdated APKs at startup (closes #46)
-fix(ci): preserve last changelog line in mirror index (closes #48)
