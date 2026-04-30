@@ -1,1 +1,0 @@
-fix(ci): auto-bump min-version floor in Firestore on every release

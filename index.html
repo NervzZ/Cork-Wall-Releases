@@ -29,53 +29,75 @@ a:hover{text-decoration:underline}
 <body>
 <h1>Cork Wall</h1>
 <p>Android build. Tap the APK on your phone to install. First time only: Android will ask "Allow this source to install apps" &mdash; tap Allow.</p>
-<a class="latest-link" href="corkwall-v0.1.25.apk">Download latest (v0.1.25)</a>
+<a class="latest-link" href="corkwall-v0.1.26.apk">Download latest (v0.1.26)</a>
 <details class="full" open>
 <summary><span class="ver">Full changelog</span><span class="sub">all releases, dated</span></summary>
 <div class="full-body">
+<h3>v0.1.26<span class="h3-date">2026-04-30</span></h3>
+<ul>
+<li>fix(update-required): wrap long version strings instead of overflowing</li>
+<li>fix(version-gate): boot active users on live minBuildNumber bump (#58)</li>
+<li>feat(theme): swap procedural cork tile for photo texture (#59)</li>
+</ul>
 <h3>v0.1.25<span class="h3-date">2026-04-29</span></h3>
 <ul>
 <li>fix(ci): trim mirror to last 2 APKs + stable "download latest" link</li>
 </ul>
 <h3>v0.1.24<span class="h3-date">2026-04-29</span></h3>
 <ul>
-<li>fix(ci): auto-bump min-version floor in Firestore on every release</li>
+<li class="empty">No changelog recorded.</li>
 </ul>
 <h3>v0.1.23<span class="h3-date">2026-04-29</span></h3>
 <ul>
-<li class="empty">No changelog recorded.</li>
+<li>fix(walls): bump per-pin area budget 350²→420² for more breathing room</li>
+<li>fix(walls): make off-limits overlay match the area cap exactly</li>
+<li>fix(walls): cap wall layout area to a function of pin count (closes #52)</li>
 </ul>
 <h3>v0.1.22<span class="h3-date">2026-04-29</span></h3>
 <ul>
-<li class="empty">No changelog recorded.</li>
+<li>feat(pins): capacity counter on note corner (closes #42)</li>
+<li>fix(pins): make unseen marker dot highlight actually visible</li>
+<li>fix(pins): tone down unseen marker dot, tilt right, highlight both pieces</li>
+<li>fix(pins): straighten + overflow the unseen marker</li>
+<li>fix(pins): place unseen marker on right corner of note</li>
+<li>feat(pins): unseen marker on pin corner (closes #43)</li>
+<li>feat(version-gate): block outdated APKs at startup (closes #46)</li>
 </ul>
 <h3>v0.1.21<span class="h3-date">2026-04-29</span></h3>
 <ul>
-<li class="empty">No changelog recorded.</li>
+<li>No new commits since the previous release.</li>
 </ul>
 <h3>v0.1.20<span class="h3-date">2026-04-29</span></h3>
 <ul>
-<li class="empty">No changelog recorded.</li>
+<li>fix(pins): make unseen marker dot highlight actually visible</li>
+<li>fix(pins): tone down unseen marker dot, tilt right, highlight both pieces</li>
+<li>fix(pins): straighten + overflow the unseen marker</li>
+<li>fix(pins): place unseen marker on right corner of note</li>
+<li>feat(pins): unseen marker on pin corner (closes #43)</li>
+<li>feat(version-gate): block outdated APKs at startup (closes #46)</li>
+<li>fix(ci): preserve last changelog line in mirror index (closes #48)</li>
 </ul>
 <h3>v0.1.18<span class="h3-date">2026-04-28</span></h3>
 <ul>
-<li class="empty">No changelog recorded.</li>
+<li>feat(pins): "Seen by N" feature on pin detail (closes #7)</li>
 </ul>
 <h3>v0.1.17<span class="h3-date">2026-04-28</span></h3>
 <ul>
-<li class="empty">No changelog recorded.</li>
+<li>fix(nav): system back gesture returns to previous screen (closes #8)</li>
 </ul>
 <h3>v0.1.16<span class="h3-date">2026-04-28</span></h3>
 <ul>
-<li class="empty">No changelog recorded.</li>
+<li>feat(theme): switch display + handwritten fonts to Patrick Hand (closes #24)</li>
 </ul>
 <h3>v0.1.15<span class="h3-date">2026-04-28</span></h3>
 <ul>
-<li class="empty">No changelog recorded.</li>
+<li>fix(ci): regenerate changelogs from gh-pages history (closes #33)</li>
 </ul>
 <h3>v0.1.14<span class="h3-date">2026-04-27</span></h3>
 <ul>
-<li class="empty">No changelog recorded.</li>
+<li>Revert "fix(android): drop adaptive launcher icon, use legacy mipmap only"</li>
+<li>fix(android): drop adaptive launcher icon, use legacy mipmap only</li>
+<li>feat(android): swap launcher icon to the new Cork Wall logo</li>
 </ul>
 <h3>v0.1.13<span class="h3-date">2026-04-27</span></h3>
 <ul>
