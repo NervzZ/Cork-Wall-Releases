@@ -1,0 +1,1 @@
+fix(ci): trim mirror to last 2 APKs + stable "download latest" link
