@@ -1,0 +1,2 @@
+fix(calendar): visible dividers + red current-week band (#38)
+feat(calendar): per-week view + emphasized today + current-week band (#38)
