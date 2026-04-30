@@ -1,1 +1,0 @@
-fix(theme): scale cork texture down so the grain reads finer

@@ -1,0 +1,3 @@
+fix(update-required): wrap long version strings instead of overflowing
+fix(version-gate): boot active users on live minBuildNumber bump (#58)
+feat(theme): swap procedural cork tile for photo texture (#59)
