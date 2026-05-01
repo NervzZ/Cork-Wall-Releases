@@ -1,1 +1,0 @@
-feat(calendar): use space below grid for today/this-week agenda (#69)
