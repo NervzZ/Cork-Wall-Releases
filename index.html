@@ -29,10 +29,18 @@ a:hover{text-decoration:underline}
 <body>
 <h1>Cork Wall</h1>
 <p>Android build. Tap the APK on your phone to install. First time only: Android will ask "Allow this source to install apps" &mdash; tap Allow.</p>
-<a class="latest-link" href="corkwall-v0.1.30.apk">Download latest (v0.1.30)</a>
+<a class="latest-link" href="corkwall-v0.1.31.apk">Download latest (v0.1.31)</a>
 <details class="full" open>
 <summary><span class="ver">Full changelog</span><span class="sub">all releases, dated</span></summary>
 <div class="full-body">
+<h3>v0.1.31<span class="h3-date">2026-05-01</span></h3>
+<ul>
+<li>fix(transitions): scrim was painting at 0x0 — wrap in Positioned.fill</li>
+<li>fix(transitions): fade scrim in place, only the note slides up (#57)</li>
+<li>fix(transitions): pin detail is now a translucent overlay (#57)</li>
+<li>fix(transitions): slide pin detail up from bottom instead of Hero (#57)</li>
+<li>feat(transitions): pin detail zooms in from the tapped card (#57)</li>
+</ul>
 <h3>v0.1.30<span class="h3-date">2026-04-30</span></h3>
 <ul>
 <li>fix(calendar): visible dividers + red current-week band (#38)</li>
@@ -40,11 +48,12 @@ a:hover{text-decoration:underline}
 </ul>
 <h3>v0.1.29<span class="h3-date">2026-04-30</span></h3>
 <ul>
-<li>feat(theme): swap nav bar gradient for wood texture (#64)</li>
+<li class="empty">No changelog recorded.</li>
 </ul>
 <h3>v0.1.28<span class="h3-date">2026-04-30</span></h3>
 <ul>
-<li class="empty">No changelog recorded.</li>
+<li>refactor(compose): collapse visibility into header eye-icon (#41)</li>
+<li>feat(pins): per-pin visibility allowlist + confidential stamp (#41)</li>
 </ul>
 <h3>v0.1.27<span class="h3-date">2026-04-30</span></h3>
 <ul>

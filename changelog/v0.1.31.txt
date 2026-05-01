@@ -1,0 +1,5 @@
+fix(transitions): scrim was painting at 0x0 — wrap in Positioned.fill
+fix(transitions): fade scrim in place, only the note slides up (#57)
+fix(transitions): pin detail is now a translucent overlay (#57)
+fix(transitions): slide pin detail up from bottom instead of Hero (#57)
+feat(transitions): pin detail zooms in from the tapped card (#57)

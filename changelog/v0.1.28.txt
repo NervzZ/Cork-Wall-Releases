@@ -1,0 +1,2 @@
+refactor(compose): collapse visibility into header eye-icon (#41)
+feat(pins): per-pin visibility allowlist + confidential stamp (#41)
