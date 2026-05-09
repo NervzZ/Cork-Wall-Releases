@@ -1,1 +1,0 @@
-fix(ci): revert to declarative ios_signing block — works with Admin API key
