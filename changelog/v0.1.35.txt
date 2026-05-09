@@ -1,2 +1,0 @@
-fix(i18n): localize calendar weekday header letters (#10)
-feat(i18n): English/French localization with first-launch picker (#10)
