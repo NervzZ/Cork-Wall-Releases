@@ -1,3 +1,0 @@
-fix(ci): drop "Public testers" from beta_groups for first build
-feat(ci): iOS TestFlight pipeline via Codemagic
-feat(pins): whiteboard pin type — free-form notes editable in place (#44)
