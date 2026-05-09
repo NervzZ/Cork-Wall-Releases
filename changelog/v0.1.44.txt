@@ -1,1 +1,0 @@
-fix(ci): drop Internal beta_group — Apple no longer allows API assignment

@@ -3,12 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cork Wall — Android builds</title>
+<title>Cork Wall — Downloads</title>
 <style>
 body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;max-width:680px;margin:40px auto;padding:0 20px;color:#222;background:#fdf8ed}
 h1{font-size:28px;margin-bottom:4px}
 p{line-height:1.5;color:#555}
-.latest-link{display:inline-block;background:#b81e10;color:white;padding:10px 18px;border-radius:6px;font-weight:700;margin-top:8px;text-decoration:none}
+.platforms{display:flex;gap:14px;margin-top:16px;flex-wrap:wrap}
+.platform-card{flex:1 1 260px;background:#fff5db;border:1px solid #e6d4a3;border-radius:8px;padding:18px 18px 20px;box-shadow:0 2px 8px rgba(40,20,0,0.08)}
+.platform-card h2{margin:0 0 6px;font-size:18px;color:#502d0f}
+.platform-card p{margin:0 0 12px;font-size:13px;color:#666;line-height:1.5}
+.latest-link{display:inline-block;background:#b81e10;color:white;padding:10px 18px;border-radius:6px;font-weight:700;text-decoration:none}
 .latest-link:hover{background:#8f2014}
 .full{margin-top:28px;background:#fff5db;border-radius:8px;padding:12px 18px;box-shadow:0 2px 8px rgba(40,20,0,0.08);border:1px solid #e6d4a3}
 .full[open]{padding-bottom:14px}
@@ -28,22 +32,38 @@ a:hover{text-decoration:underline}
 </head>
 <body>
 <h1>Cork Wall</h1>
-<p>Android build. Tap the APK on your phone to install. First time only: Android will ask "Allow this source to install apps" &mdash; tap Allow.</p>
-<a class="latest-link" href="corkwall-v0.1.45.apk">Download latest (v0.1.45)</a>
+<p>Pick your platform. Internal builds &mdash; not on the App Store yet.</p>
+<div class="platforms">
+  <div class="platform-card">
+    <h2>Android</h2>
+    <p>Tap the APK on your phone to install. First time only: Android will ask "Allow this source to install apps" &mdash; tap Allow.</p>
+    <a class="latest-link" href="corkwall-v0.1.47.apk">Download v0.1.47</a>
+  </div>
+  <div class="platform-card">
+    <h2>iOS</h2>
+    <p>Install the TestFlight app from the App Store first, then tap the button below to redeem your invite.</p>
+    <a class="latest-link" href="https://testflight.apple.com/join/Tm4PrBT5">Open in TestFlight</a>
+  </div>
+</div>
 <details class="full" open>
 <summary><span class="ver">Full changelog</span><span class="sub">all releases, dated</span></summary>
 <div class="full-body">
+<h3>v0.1.47<span class="h3-date">2026-05-09</span></h3>
+<ul>
+<li>feat(ci): auto-distribute every build to Public testers external group</li>
+<li>feat(mirror): add iOS TestFlight card next to Android download</li>
+</ul>
 <h3>v0.1.45<span class="h3-date">2026-05-09</span></h3>
 <ul>
 <li>fix(ios): declare app exempt from encryption export compliance</li>
 </ul>
 <h3>v0.1.44<span class="h3-date">2026-05-09</span></h3>
 <ul>
-<li>fix(ci): drop Internal beta_group — Apple no longer allows API assignment</li>
+<li class="empty">No changelog recorded.</li>
 </ul>
 <h3>v0.1.43<span class="h3-date">2026-05-09</span></h3>
 <ul>
-<li class="empty">No changelog recorded.</li>
+<li>fix(ci): persist distribution cert private key across builds</li>
 </ul>
 <h3>v0.1.42<span class="h3-date">2026-05-09</span></h3>
 <ul>
