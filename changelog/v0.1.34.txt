@@ -1,3 +1,0 @@
-fix(walls): drop bounds are now identical regardless of which pin you grab (#39)
-fix(roles): posters can drag confidential pins too (#39)
-feat(roles): posters can move any pin, only delete their own (#39)
