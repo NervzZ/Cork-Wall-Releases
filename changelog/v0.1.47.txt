@@ -1,2 +1,0 @@
-feat(ci): auto-distribute every build to Public testers external group
-feat(mirror): add iOS TestFlight card next to Android download
