@@ -1,0 +1,2 @@
+fix: unify build number across iOS + Android via git rev-list --count
+feat(ci): auto-distribute every build to Public testers external group

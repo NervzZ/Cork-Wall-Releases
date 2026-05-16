@@ -37,7 +37,7 @@ a:hover{text-decoration:underline}
   <div class="platform-card">
     <h2>Android</h2>
     <p>Tap the APK on your phone to install. First time only: Android will ask "Allow this source to install apps" &mdash; tap Allow.</p>
-    <a class="latest-link" href="corkwall-v0.1.131.apk">Download v0.1.131</a>
+    <a class="latest-link" href="corkwall-v0.1.136.apk">Download v0.1.136</a>
   </div>
   <div class="platform-card">
     <h2>iOS</h2>
@@ -48,6 +48,13 @@ a:hover{text-decoration:underline}
 <details class="full" open>
 <summary><span class="ver">Full changelog</span><span class="sub">all releases, dated</span></summary>
 <div class="full-body">
+<h3>v0.1.136<span class="h3-date">2026-05-16</span></h3>
+<ul>
+<li>perf(android): ship arm64-only APK (~73MB → ~34MB) (#118)</li>
+<li>fix(ios): add Push Notifications entitlement + background modes (#113) (#117)</li>
+<li>fix(pins): share Places SDK client across picker + resolver (#114) (#116)</li>
+<li>fix(notifications): Android channel + post-#111 stranded follow-ups (#115)</li>
+</ul>
 <h3>v0.1.131<span class="h3-date">2026-05-15</span></h3>
 <ul>
 <li>docs(CLAUDE.md): preserve session-5 learnings + i18n catch-up (#103)</li>
@@ -59,13 +66,12 @@ a:hover{text-decoration:underline}
 </ul>
 <h3>v0.1.124<span class="h3-date">2026-05-10</span></h3>
 <ul>
-<li>docs(CLAUDE.md): document the dev branch flow + merge-strategy gotcha</li>
-<li>feat(pins): edit mode for event-type pins (#96)</li>
-<li>feat(i18n): translate whiteboard UI + kind-picker drawer (#94)</li>
+<li class="empty">No changelog recorded.</li>
 </ul>
 <h3>v0.1.117<span class="h3-date">2026-05-09</span></h3>
 <ul>
-<li class="empty">No changelog recorded.</li>
+<li>fix: unify build number across iOS + Android via git rev-list --count</li>
+<li>feat(ci): auto-distribute every build to Public testers external group</li>
 </ul>
 <h3>v0.1.46<span class="h3-date">2026-05-09</span></h3>
 <ul>

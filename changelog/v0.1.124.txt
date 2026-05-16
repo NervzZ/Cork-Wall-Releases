@@ -1,3 +1,0 @@
-docs(CLAUDE.md): document the dev branch flow + merge-strategy gotcha
-feat(pins): edit mode for event-type pins (#96)
-feat(i18n): translate whiteboard UI + kind-picker drawer (#94)
