@@ -1,0 +1,2 @@
+feat(ci): version-gate floor = min of both pipelines' last ship (#130)
+fix(ci): Xcode 16.4 → latest — Apple now mandates the iOS 26 SDK (#129)

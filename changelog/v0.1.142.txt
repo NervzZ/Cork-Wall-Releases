@@ -1,3 +1,0 @@
-feat(#40): index-card note redesign — cards, detail view, cleanup (#125)
-refactor(#123): full codebase refactor — bugs, tests, CI + structural cleanup (#124)
-fix(ci): codemagic full clone + xcode 16.4 pin (#122)
