@@ -1,0 +1,1 @@
+fix(ci): valid Codemagic clone-depth config — restore iOS build triggering (#127)
