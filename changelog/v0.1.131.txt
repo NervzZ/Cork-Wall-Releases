@@ -1,0 +1,6 @@
+docs(CLAUDE.md): preserve session-5 learnings + i18n catch-up (#103)
+feat(notifications): push notifications end-to-end (#47) (#111)
+feat(pins): in-app map view on detail tap + picker UX polish (#77) (#109)
+feat(walls): add Leave wall action for non-admin members (#104) (#105)
+feat(pins): Places autocomplete + embedded map picker (#77) (#108)
+docs(CLAUDE.md): restore main as the default branch (#102)

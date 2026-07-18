@@ -1,4 +1,0 @@
-perf(android): ship arm64-only APK (~73MB → ~34MB) (#118)
-fix(ios): add Push Notifications entitlement + background modes (#113) (#117)
-fix(pins): share Places SDK client across picker + resolver (#114) (#116)
-fix(notifications): Android channel + post-#111 stranded follow-ups (#115)
